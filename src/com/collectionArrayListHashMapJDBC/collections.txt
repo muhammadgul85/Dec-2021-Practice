@@ -1,0 +1,92 @@
+Day-10
+-------
+ArrayList --- Data Structure (Array isn't Data Structure)
+HashMap  -----Data Structure
+
+Primitive --> int, double, boolean, char etc...
+Derived --> String, (ArrayList,HashMap  (Collections))
+
+2 limitations in array (ArrayList overcome these issues)
+------------------
+
+int a[]=new int[5] --> Fixed size
+we cannot store different type of values
+
+
+Operations on ArrayList
+--------------------
+How to declare array list
+how to to add elements/values to array list
+Find size of array list
+remove elements/values from array list
+insert a new element in the middle of array list
+read values from arraylist
+
+
+HashMap
+----------
+declare HASHMAP
+add pairs to hashmap
+remove pairs from hashmap
+read pairs from hashmap
+
+JDBC
+--------------
+
+SQL - Structure Query Language
+
+DDL --> CREATE, ALTERM Drop
+DML --> insert, update, delete 
+DRL ---> select
+DCL -->grant, revoke
+TCL -->Commit, rollback
+
+
+
+JDBC -- Java Database Connectivity
+
+Pre-requisite
+--------------
+1) Download database driver( .jar file)
+	http://download.oracle.com/otn/utilities_drivers/jdbc/121020/ojdbc7.jar
+2) Add driver jar to your project
+
+
+Steps to write JDBC program
+------------------------
+1) Create a connection
+2) Create a query/statement
+3) Execute statement/query
+4) close connection
+
+SQL Videos: https://www.youtube.com/watch?v=RtQzePx0LPc&list=PLUDwpEzHYYLtzLBvuO9hN7ee5Mcy2ydSB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

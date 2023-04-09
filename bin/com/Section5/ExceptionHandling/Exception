@@ -1,0 +1,85 @@
+Exception is different than Error
+
+Errors : 2 Kinds
+		         1st:Syntax Errors i.e. User Mistakes (Compile Time Error), Compiler will give error
+		         
+		         2nd: (Programe Error)/ Logical Error. 
+		         
+		         
+Exception: Exception occur at run time based on user input
+Day-9
+------
+Exception Handling
+-----------------
+
+Errors
+---------
+1) Syntax errors
+
+	Ex: System.out.println()
+
+2) Logical
+
+	2 3  = 5  -5 100
+
+3) Exception occur at run time based on user input
+------
+Exception
+------
+Exception is an abnormal condition/an event which will terminate program execution.
+In java, exception is an event that distrupts the normal flow of the program. 
+
+Reproduced differetn types of exceptions...
+
+2 kinds of Exceptions
+-----------------
+1) Checked Exceptions -->  Exceptions checked/identified by the compiler.
+	Examples:Compiler catch them
+		InterruptedException
+		IOException
+		FileNotFoundException etc.
+
+	--> Can be handled using try..catch block & throws keyword
+
+2) Un-checked Exceptions -->Exceptions which are not checked/identified by compiler
+(Run Time) Compiler cannot catch them
+ Examples: 
+		ArithmeticException
+		NullPointerException
+		NumberFormatException
+		ArrayIndexOutOfBoundsException
+
+	--> Can be handled only using try..catch
+
+Handle Exceptions..........
+
+try
+{
+statement which will cause the exception
+}
+catch(Exception Type)
+{
+//Recovery steps
+}
+finally
+{
+
+}
+
+case1: Exception occurred, catch block handled ---> finally block will execute
+case2: Exception occurred, catch block NOT handled --> finally block will execute
+case3: Exception does not occurred, catch block ignored ----> finally block will execute
+
+
+
+Throws Keyword for Checked Exceptions only
+
+
+
+
+
+
+
+
+
+

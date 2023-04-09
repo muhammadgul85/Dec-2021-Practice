@@ -1,0 +1,69 @@
+Data will be stored in DB (Storage Area) in the form of tables
+JDBC: Front end query sent to server 
+JDBC is a mediator (it's Java database Connectivity)
+
+COMMANDS
+DDL - 
+DML - 
+TCL - 
+
+JDBC
+--------------
+
+SQL - Structure Query Language
+
+DDL --> CREATE, ALTERM Drop
+DML --> insert, update, delete 
+DRL ---> select
+DCL -->grant, revoke
+TCL -->Commit, rollback
+
+
+
+JDBC -- Java Database Connectivity
+
+Pre-requisite
+--------------
+1) Download database driver( .jar file)
+	http://download.oracle.com/otn/utilities_drivers/jdbc/121020/ojdbc7.jar
+2) Add driver jar to your project
+
+
+Steps to write JDBC program
+------------------------
+1) Create a connection
+2) Create a query/statement
+3) Execute statement/query
+4) close connection
+
+SQL Videos: https://www.youtube.com/watch?v=RtQzePx0LPc&list=PLUDwpEzHYYLtzLBvuO9hN7ee5Mcy2ydSB
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

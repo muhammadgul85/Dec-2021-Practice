@@ -1,0 +1,17 @@
+Private: Within the Class only
+Default: IF you don't specifiy any other access modifier it will be treated as default
+         Can be accessed within the package i.e. all classess within package
+         
+Protected: Within package and outside of package too but through inheritance only
+		   which means it's not direct access as we are using extend keyword
+		   
+Public: We can access everywhere
+
+public int a =100;
+public void ()
+{
+}
+
+      
+
+
